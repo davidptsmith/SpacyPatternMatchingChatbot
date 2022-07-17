@@ -1,0 +1,825 @@
+[33m---------------------------------[0m
+[33m------- TEST SENTENCE 0 ---------[0m
+-----------------------------------
+USER INPUT:  [32m"My name is David, I want a job in software development and I have 5 years experience"[0m
+-----------------------------------
+Len after experience:  3814
+Len after sort_job_title_by_similarity:  1177
+FOUND DATA: 
+  Job Title:  software development 
+  Expereince:  5 
+  Location:  None 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  ask_more_info
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job Working in software development.
+You have 5 years experience.
+
+Okay, I found quite a few jobs...
+1177 to be precise.
+Would you like to add in some more information such as contract type , location , company and salary? 
+This will help reduce the search."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"end"[0m
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Is this the end? My only friend, the end? --- Goodbye ---"[0m
+[33m---------------------------------[0m
+[33m------- TEST SENTENCE 1 ---------[0m
+-----------------------------------
+USER INPUT:  [32m"My name is David, I am an experienced architect looking for work"[0m
+-----------------------------------
+Len after sort_job_title_by_similarity:  953
+FOUND DATA: 
+  Job Title:  architect 
+  Expereince:  None 
+  Location:  None 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  ask_more_info
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job Working in architect.
+
+Okay, I found quite a few jobs...
+953 to be precise.
+Would you like to add in some more information such as experience , contract type , location , company and salary? 
+This will help reduce the search."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"end"[0m
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Is this the end? My only friend, the end? --- Goodbye ---"[0m
+[33m---------------------------------[0m
+[33m------- TEST SENTENCE 2 ---------[0m
+-----------------------------------
+USER INPUT:  [32m"I to work at about smiles, they are located in Sydney, find me a role there."[0m
+-----------------------------------
+Len after job_company:  2
+Len after job_location:  2
+FOUND DATA: 
+  Job Title:  None 
+  Expereince:  None 
+  Location:  sydney 
+  Contract:  None 
+  Company:  about smiles 
+  Salary:  None
+CURRENT INTENT:  ask_show_jobs
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job located in sydney. 
+And you want to work at about smiles. 
+
+There are a few jobs for you, 2 in total. Would you like to see them?"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"end"[0m
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Is this the end? My only friend, the end? --- Goodbye ---"[0m
+[33m---------------------------------[0m
+[33m------- TEST SENTENCE 3 ---------[0m
+-----------------------------------
+USER INPUT:  [32m"I want a mining role in Port Hedland, find me a role there."[0m
+-----------------------------------
+Len after job_location:  217
+Len after sort_job_title_by_similarity:  4
+FOUND DATA: 
+  Job Title:  mining 
+  Expereince:  None 
+  Location:  port hedland, karratha & pilbara 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  ask_show_jobs
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job Working in mining.
+You want a job located in port hedland, karratha & pilbara. 
+
+There are a few jobs for you, 4 in total. Would you like to see them?"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"yes"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  mining 
+  Expereince:  None 
+  Location:  port hedland, karratha & pilbara 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  ask_job_number_or_next
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"No worries, lets go through what I found you. 
+
+Here are jobs 1 - 3 out of the total 4 I could find.
+
+    1) Underground Crusher Operator at Metals X Limited located in Port Hedland, Karratha & Pilbara on a Full Time contract
+
+    2) Mining Superintendent at Fortescue Metals Group Ltd located in Port Hedland, Karratha & Pilbara on a Full Time contract
+
+    3) Senior Mining Engineer at Mineral Resources Limited located in Port Hedland, Karratha & Pilbara on a Full Time contract
+
+Type "next" to see the next set of jobs
+Enter the number of the job that interests you and I'll show you the description and provide you with the link to apply."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"3"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  mining 
+  Expereince:  None 
+  Location:  port hedland, karratha & pilbara 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  ask_job_number_or_next
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"The Company As an ASX 200 and perennial high performing company, Mineral Resources Limited (MRL) is an Australian based leader in the performance and delivery of diversified mining services and minerals processing, underpinned by a growing world-class portfolio of mining operations across multiple commodities including iron ore and lithium. Ground breaking innovation is at the heart of MRLs culture and is key to our enduring success. With a 1,600 strong growing workforce, a market capitalisation of $3Bn, revenue for FY17 of $1.46Bn, and a best in industry safety record, MRL will not only continue to provide exciting job prospects, it will also offer you the opportunity to start and finish your career with us. The Role & The Team In order to support our operational growth through 2018, we are seeking two suitably qualified Senior Mining Engineers to work back to back for our expanding Wodgina lithium operation in the Pilbara. Reporting to the Mining Manager, this role will be working a 9:5 or 5:2,4:3 roster from Perth, with an immediate start available. It is essential you hold a QM ticket for this role. This is a dynamic work environment which requires you to think fast, and roll your sleeves up. Your Responsibilities & Duties Accountable for all mine engineering, mine geology, survey and technical services duties on site Assist in the preparation of the site annual business plan and accountability for execution and meeting or exceeding the plan in all relevant areas Routine operational reports will be required including but not limited to; daily, weekly, monthly, mine reconciliation reports, reserve block model/grade Manage the day to day relationship with and provide guidance to Mine Operations team Maintain and foster a working environment which prompts safety in all that we do, whilst also providing outstanding service Your Experience & Skills Tertiary qualifications in Mining Engineering 7years + of mine operations experience in the resources industry WA unrestricted Quarry Manager Certificate of Competency is beneficial Competency with major recognized mining design and scheduling software such as Surpac, XACT, MinesShed, Trimble or similar High degree of communication, organisational and problem solving skills Demonstrate a detailed understanding of relevant costs and analyse to achieve optimal outcomes Strong analytical skills The Benefits 9:5 or 5:2,4:3 roster from Perth Backed by an experienced and supportive leadership team Work for an organisation with a first class reputation in camp and food, in the Pilbara and Goldfields region Be part of a high performing crew A workplace that lives and breathes a strong safety culture If you feel that you have the necessary attitude and skills for this role, apply now for a confidential chat with our friendly Recruitment Team. Shortlisting will commence immediately. Please note that no agency applications will be accepted at this time, unless specifically requested. Mineral Resources Limited is a proud Equal Opportunity Employer, and we encourage applicants who identify as Aboriginal or Torres Strait Islander to apply. This role is eligible for the MRL internal referral program.
+
+Okay, for the Senior mining engineer role at Mineral resources limited and can be found at https://www.seek.com.au/job/35984913 the job description is above.
+
+Type "back" if you want to see more jobs or "reset" to start over. 
+
+Otherwise, good luck with your job hunt."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"back"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  mining 
+  Expereince:  None 
+  Location:  port hedland, karratha & pilbara 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  ask_job_number_or_next
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"
+Here are jobs 1 - 3 out of the total 4 I could find.
+
+    1) Underground Crusher Operator at Metals X Limited located in Port Hedland, Karratha & Pilbara on a Full Time contract
+
+    2) Mining Superintendent at Fortescue Metals Group Ltd located in Port Hedland, Karratha & Pilbara on a Full Time contract
+
+    3) Senior Mining Engineer at Mineral Resources Limited located in Port Hedland, Karratha & Pilbara on a Full Time contract
+
+Type "next" to see the next set of jobs
+Enter the number of the job that interests you and I'll show you the description and provide you with the link to apply."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"next"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  mining 
+  Expereince:  None 
+  Location:  port hedland, karratha & pilbara 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  ask_job_number_or_next
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Those are all the jobs that I have to show you, would you like to select one of them too review or reset your search?"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"1"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  mining 
+  Expereince:  None 
+  Location:  port hedland, karratha & pilbara 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  ask_job_number_or_next
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Underground Crusher Operator Metals X Limited owns the Nifty Copper Operations and Wingellina Nickel Project, both in Western Australia. The Company is also Australias largest tin producer with its 50 per cent ownership of the Renison TinOperation in Tasmania. It continues to be a diversified group exploring and developing metals and minerals in Australia. Nifty Copper Mine is currently seeking expressions of interest from suitably qualified candidates for the position of Underground Crusher Operator. Competitive Salary Package 14 days on/7 days off roster, 12 hour shifts FIFO from Perth To be successful in the role you would need to have prior experience with Citech operated gyratory crusher. EXPERIENCE / QUALIFICATIONS: Conveyor and underground experience (essential) Bobcat ticket (desirable) IT ticket (desirable) Gantry crane ticket (desirable) Rigger ticket (desirable) Dogman ticket (desirable) Working at Heights ticket Successfully recognise and implement effective corrective actions in response to work hazards. Holding a current C Class Drivers Licence. You must be either an Australian citizen or a holder of an Australian permanent residency visa to be eligible to apply for this position.
+
+Okay, for the Underground crusher operator role at Metals x limited and can be found at https://www.seek.com.au/job/35987688 the job description is above.
+
+Type "back" if you want to see more jobs or "reset" to start over. 
+
+Otherwise, good luck with your job hunt."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"end"[0m
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Is this the end? My only friend, the end? --- Goodbye ---"[0m
+[33m---------------------------------[0m
+[33m------- TEST SENTENCE 4 ---------[0m
+-----------------------------------
+USER INPUT:  [32m"My name is david, I live in Sydney and I want to work in mining and i have 10 years experience"[0m
+-----------------------------------
+Len after experience:  4093
+Len after job_location:  1493
+Len after sort_job_title_by_similarity:  2
+FOUND DATA: 
+  Job Title:  mining 
+  Expereince:  10 
+  Location:  sydney 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  ask_show_jobs
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job Working in mining.
+You have 10 years experience.
+You want a job located in sydney. 
+
+There are a few jobs for you, 2 in total. Would you like to see them?"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"end"[0m
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Is this the end? My only friend, the end? --- Goodbye ---"[0m
+[33m---------------------------------[0m
+[33m------- TEST SENTENCE 5 ---------[0m
+-----------------------------------
+USER INPUT:  [32m"I want a job Brisbane paying $70-90k+ a year"[0m
+-----------------------------------
+Len after job_location:  2951
+Len after filter_by_salary:  104
+FOUND DATA: 
+  Job Title:  None 
+  Expereince:  None 
+  Location:  brisbane 
+  Contract:  None 
+  Company:  None 
+  Salary:  90000.0
+CURRENT INTENT:  ask_more_info
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job located in brisbane. 
+Paying  $90000.0.
+
+Okay, I found quite a few jobs...
+104 to be precise.
+Would you like to add in some more information such as experience , contract type , category and company? 
+This will help reduce the search."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"no"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  None 
+  Expereince:  None 
+  Location:  brisbane 
+  Contract:  None 
+  Company:  None 
+  Salary:  90000.0
+CURRENT INTENT:  ask_job_number_or_next
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"No worries, lets go through what I found you
+Here are jobs 1 - 5 out of the total 104 I could find.
+
+    1) Management Accountant at u&u. Recruitment Partners located in Brisbane paying $100,000 - $105,000 p.a. on a Full Time contract
+
+    2) Department of Health Assistant Director, Executive Level 1, Pharmacist at Department of Health located in Brisbane paying $100,502 - $114,624 on a Full Time contract
+
+    3) Senior Financial Accountant at u&u. Recruitment Partners located in Brisbane paying $120,000 - $130,000 p.a. on a Full Time contract
+
+    4) Accountant- Business Services- Manager at MW Recruitment located in Brisbane paying $100,000 - $119,999 on a Full Time contract
+
+    5) Manager - IT Operations at u&u. Recruitment Partners located in Brisbane paying $150k - $180k p.a. on a Full Time contract
+
+Type "next" to see the next set of jobs
+Enter the number of the job that interests you and I'll show you the description and provide you with the link to apply."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"next"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  None 
+  Expereince:  None 
+  Location:  brisbane 
+  Contract:  None 
+  Company:  None 
+  Salary:  90000.0
+CURRENT INTENT:  ask_job_number_or_next
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"
+Here are jobs 6 - 10 out of the total 104 I could find.
+
+    6) Senior Financial Accountant at u&u. Recruitment Partners located in Brisbane paying $100,000 - $120,000 p.a. on a Full Time contract
+
+    7) Category Specialist at u&u. Recruitment Partners located in Brisbane paying $100,000 - $115,000 p.a. on a Full Time contract
+
+    8) ICU Registered Nurse Brisbane CBD at Sigma Resourcing Pty Ltd located in Brisbane paying call Megan 0282350302 on a Full Time contract
+
+    9) Site Supervisor at Private Advertiser located in Brisbane paying $90,000 - $119,999 on a Full Time contract
+
+    10) Female VR General Practitioner (FRACGP) - Acacia Ridge Area - DWS - 70% Billings at Sigma Resourcing Pty Ltd located in Brisbane paying 250K + on a Full Time contract
+
+Type "next" to see the next set of jobs
+Enter the number of the job that interests you and I'll show you the description and provide you with the link to apply."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"7"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  None 
+  Expereince:  None 
+  Location:  brisbane 
+  Contract:  None 
+  Company:  None 
+  Salary:  90000.0
+CURRENT INTENT:  ask_job_number_or_next
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Would you like to be part of an organisation that is passionate about changing the lives of their customers and making a difference in the community? My clients are looking for a Category Specialist to join their team. The role will see you responsible for sourcing products and services. You will lead negotiations of pricing and contract terms and be responsible for creating and completing sourcing strategies. To be considered you will have a wealth of knowledge and experience as a true Category Specialist, ideally in an operational environment. Your expert procurement background and knowledge of strategic sourcing will see you be successful in this role. An ability to develop and maintain strong stakeholder engagement will be key in driving this role to success. In return, you will be offered a great opportunity to be a part of organisation, to grow and develop your career during an exciting program of work. For more information please call Dee Clarke at u&u on 07 3232 9102, quoting reference number 11279. Alternatively, to submit an application, please click below. Please submit your resume in Word format only.
+
+Okay, for the Category specialist role at U&u. recruitment partners and can be found at https://www.seek.com.au/job/35991754 the job description is above.
+
+Type "back" if you want to see more jobs or "reset" to start over. 
+
+Otherwise, good luck with your job hunt."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"end"[0m
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Is this the end? My only friend, the end? --- Goodbye ---"[0m
+[33m---------------------------------[0m
+[33m------- TEST SENTENCE 6 ---------[0m
+-----------------------------------
+USER INPUT:  [32m"I want a job Brisbane paying 110k a year"[0m
+-----------------------------------
+Len after job_location:  2951
+FOUND DATA: 
+  Job Title:  None 
+  Expereince:  None 
+  Location:  brisbane 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  ask_more_info
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job located in brisbane. 
+
+Okay, I found quite a few jobs...
+2951 to be precise.
+Would you like to add in some more information such as experience , contract type , category , company and salary? 
+This will help reduce the search."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"end"[0m
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Is this the end? My only friend, the end? --- Goodbye ---"[0m
+[33m---------------------------------[0m
+[33m------- TEST SENTENCE 7 ---------[0m
+-----------------------------------
+USER INPUT:  [32m"I want a job Brisbane paying 110000+ a year"[0m
+-----------------------------------
+Len after job_location:  2951
+Len after filter_by_salary:  61
+FOUND DATA: 
+  Job Title:  None 
+  Expereince:  None 
+  Location:  brisbane 
+  Contract:  None 
+  Company:  None 
+  Salary:  110000.0
+CURRENT INTENT:  ask_show_jobs
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job located in brisbane. 
+Paying  $110000.0.
+
+There are a few jobs for you, 61 in total. Would you like to see them?"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"end"[0m
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Is this the end? My only friend, the end? --- Goodbye ---"[0m
+[33m---------------------------------[0m
+[33m------- TEST SENTENCE 8 ---------[0m
+-----------------------------------
+USER INPUT:  [32m"$40K per annum, working in Sydney, what jobs do you have for me?"[0m
+-----------------------------------
+Len after job_location:  9412
+Len after filter_by_salary:  1715
+FOUND DATA: 
+  Job Title:  None 
+  Expereince:  None 
+  Location:  sydney 
+  Contract:  None 
+  Company:  None 
+  Salary:  40000.0
+CURRENT INTENT:  ask_more_info
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job located in sydney. 
+Paying  $40000.0.
+
+Okay, I found quite a few jobs...
+1715 to be precise.
+Would you like to add in some more information such as experience , contract type , category and company? 
+This will help reduce the search."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"Any in teaching?"[0m
+-----------------------------------
+Len after job_location:  1715
+Len after filter_by_salary:  1715
+Len after sort_job_title_by_similarity:  51
+FOUND DATA: 
+  Job Title:  teaching 
+  Expereince:  None 
+  Location:  sydney 
+  Contract:  None 
+  Company:  None 
+  Salary:  40000.0
+CURRENT INTENT:  ask_show_jobs
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job Working in teaching.
+You want a job located in sydney. 
+Paying  $40000.0.
+
+There are a few jobs for you, 51 in total. Would you like to see them?"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"on a full time contract"[0m
+-----------------------------------
+Len after job_location:  51
+Len after filter_by_contrat:  48
+Len after filter_by_salary:  48
+Len after sort_job_title_by_similarity:  48
+FOUND DATA: 
+  Job Title:  teaching 
+  Expereince:  None 
+  Location:  sydney 
+  Contract:  full time 
+  Company:  None 
+  Salary:  40000.0
+CURRENT INTENT:  ask_show_jobs
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job Working in teaching.
+On a full time role. 
+You want a job located in sydney. 
+Paying  $40000.0.
+
+There are a few jobs for you, 48 in total. Would you like to see them?"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"yes"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  teaching 
+  Expereince:  None 
+  Location:  sydney 
+  Contract:  full time 
+  Company:  None 
+  Salary:  40000.0
+CURRENT INTENT:  ask_job_number_or_next
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"No worries, lets go through what I found you. 
+
+Here are jobs 1 - 5 out of the total 48 I could find.
+
+    1) Business Graduate Entry Level Sales Role - Sydney, NSW at Proforce located in Sydney paying $45,000 - $50,000 on a Full Time contract
+
+    2) Science Teacher required in Cambridge UK - September 2018 at Prospero Group Ltd located in Sydney paying $55,000 - $69,999 on a Full Time contract
+
+    3) Course Manager - National Short Courses at National Institute of Dramatic Art located in Sydney paying $76,080.03 inclusive of 9.5% superannuation on a Full Time contract
+
+    4) Seeking a Graduate Marketing Position? We are currently recruiting! Sydney at Proforce located in Sydney paying $45,000 - $50,000 on a Full Time contract
+
+    5) Clinical Educator at Pettit Pharma & Device Search Pty Ltd located in Sydney paying $130K package on a Full Time contract
+
+Type "next" to see the next set of jobs
+Enter the number of the job that interests you and I'll show you the description and provide you with the link to apply."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"4"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  teaching 
+  Expereince:  None 
+  Location:  sydney 
+  Contract:  full time 
+  Company:  None 
+  Salary:  40000.0
+CURRENT INTENT:  ask_job_number_or_next
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Who we are Over the past decade, ProForce has successfully helped over 15,000 graduates take the first step in their corporate career. We work predominantly in the business to business sales and marketing space, and operate within a variety of industries including Media, Recruitment, FMCG, Pharmaceuticals, Finance and IT/Telco. Roles available All of the positions we offer require no previous corporate experience and provide the opportunity to be working in a hands on capacity as you contribute to greater team or company goals. Marketing, Account or Business Development Executives Sales and Marketing Coordinators Customer Service Consultants Junior Sales Representatives or Territory Managers Channel or Product Managers If any of these opportunities sound like something you would be interested in, we want to hear from you! Your application will be assessed by our team, and if we feel that you could be a good fit for any of our client partners we will be in touch regarding next steps. For more information on ProForce and what we do, check out our Facebook page https://www.facebook.com/proforceaustralia or visit our website: http://proforce.net.au/ *In order to be considered for this role you must have a completed university degree and hold Australian permanent residency*
+
+Okay, for the Seeking a graduate marketing position? we are currently recruiting! sydney role at Proforce and can be found at https://www.seek.com.au/job/35994647 the job description is above.
+
+Type "back" if you want to see more jobs or "reset" to start over. 
+
+Otherwise, good luck with your job hunt."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"end"[0m
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Is this the end? My only friend, the end? --- Goodbye ---"[0m
+[33m---------------------------------[0m
+[33m------- TEST SENTENCE 9 ---------[0m
+-----------------------------------
+USER INPUT:  [32m"Hey fam, lookin for work in mining, what do you think? I got 5 years experience"[0m
+-----------------------------------
+Len after experience:  3814
+Len after sort_job_title_by_similarity:  21
+FOUND DATA: 
+  Job Title:  mining 
+  Expereince:  5 
+  Location:  None 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  ask_show_jobs
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job Working in mining.
+You have 5 years experience.
+
+There are a few jobs for you, 21 in total. Would you like to see them?"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"Anything in karratha"[0m
+-----------------------------------
+Len after experience:  21
+Len after job_location:  0
+Len after sort_job_title_by_similarity:  0
+FOUND DATA: 
+  Job Title:  mining 
+  Expereince:  5 
+  Location:  port hedland, karratha & pilbara 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  ask_reset
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job Working in mining.
+You have 5 years experience.
+You want a job located in port hedland, karratha & pilbara. 
+
+I am very sorry, but your search was unsuccessful and there are no jobs matching your parameters.
+Do you want to reset and try again?"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"righto"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  None 
+  Expereince:  None 
+  Location:  None 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  get_data_and_filter
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Okay, lets start over, what are you looking for?"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"alright"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  None 
+  Expereince:  None 
+  Location:  None 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  get_data_and_filter
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"The input you provided could not be used, please rephrase your statement and try again.
+
+If you need to reset the me, type 'reset'"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"next"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  None 
+  Expereince:  None 
+  Location:  None 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  get_data_and_filter
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"The input you provided could not be used, please rephrase your statement and try again.
+
+If you need to reset the me, type 'reset'"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"3"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  None 
+  Expereince:  None 
+  Location:  None 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  get_data_and_filter
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"The input you provided could not be used, please rephrase your statement and try again.
+
+If you need to reset the me, type 'reset'"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"end"[0m
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Is this the end? My only friend, the end? --- Goodbye ---"[0m
+[33m---------------------------------[0m
+[33m------- TEST SENTENCE 10 ---------[0m
+-----------------------------------
+USER INPUT:  [32m"I am looking for a junior data science role, in Perth"[0m
+-----------------------------------
+Len after experience:  2954
+Len after job_location:  214
+Len after sort_job_title_by_similarity:  15
+FOUND DATA: 
+  Job Title:  data science 
+  Expereince:  3 
+  Location:  perth 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  ask_show_jobs
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job Working in data science.
+You have 3 years experience.
+You want a job located in perth. 
+
+There are a few jobs for you, 15 in total. Would you like to see them?"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"end"[0m
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Is this the end? My only friend, the end? --- Goodbye ---"[0m
+[33m---------------------------------[0m
+[33m------- TEST SENTENCE 11 ---------[0m
+-----------------------------------
+USER INPUT:  [32m"I am looking for a senior data science role"[0m
+-----------------------------------
+Len after experience:  3946
+Len after sort_job_title_by_similarity:  427
+FOUND DATA: 
+  Job Title:  data science 
+  Expereince:  7 
+  Location:  None 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  ask_more_info
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job Working in data science.
+You have 7 years experience.
+
+Okay, I found quite a few jobs...
+427 to be precise.
+Would you like to add in some more information such as contract type , location , company and salary? 
+This will help reduce the search."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"end"[0m
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Is this the end? My only friend, the end? --- Goodbye ---"[0m
+[33m---------------------------------[0m
+[33m------- TEST SENTENCE 12 ---------[0m
+-----------------------------------
+USER INPUT:  [32m"I am looking for a graduate data science role"[0m
+-----------------------------------
+Len after experience:  1852
+Len after sort_job_title_by_similarity:  154
+FOUND DATA: 
+  Job Title:  data science 
+  Expereince:  1 
+  Location:  None 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  ask_more_info
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"You want a job Working in data science.
+You have 1 years experience.
+
+Okay, I found quite a few jobs...
+154 to be precise.
+Would you like to add in some more information such as contract type , location , company and salary? 
+This will help reduce the search."[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"end"[0m
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Is this the end? My only friend, the end? --- Goodbye ---"[0m
+[33m---------------------------------[0m
+[33m------- TEST SENTENCE 13 ---------[0m
+-----------------------------------
+USER INPUT:  [32m"la;sdkjflsjkdfdsflasfdj"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  None 
+  Expereince:  None 
+  Location:  None 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  get_data_and_filter
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"The input you provided could not be used, please rephrase your statement and try again.
+
+If you need to reset the me, type 'reset'"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"end"[0m
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Is this the end? My only friend, the end? --- Goodbye ---"[0m
+[33m---------------------------------[0m
+[33m------- TEST SENTENCE 14 ---------[0m
+-----------------------------------
+USER INPUT:  [32m"in the jungle, the mighty jungle, the lion sleeps tonight"[0m
+-----------------------------------
+FOUND DATA: 
+  Job Title:  None 
+  Expereince:  None 
+  Location:  None 
+  Contract:  None 
+  Company:  None 
+  Salary:  None
+CURRENT INTENT:  get_data_and_filter
+
+-----------------------------------
+BOT OUTPUT: 
+ [32m"The input you provided could not be used, please rephrase your statement and try again.
+
+If you need to reset the me, type 'reset'"[0m
+-----------------------------------
+-----------------------------------
+USER INPUT:  [32m"end"[0m
+-----------------------------------
+BOT OUTPUT: 
+ [32m"Is this the end? My only friend, the end? --- Goodbye ---"[0m
