@@ -129,4 +129,3 @@ For more see the output in the notebook.
 ![image](https://user-images.githubusercontent.com/76982323/179901378-56320f53-0c68-42be-b44e-803d356b7bd0.png)
 ![image](https://user-images.githubusercontent.com/76982323/179901430-a13454b4-76d4-424b-8011-3f5a87cb51c1.png)
 
-## Explanation of process
