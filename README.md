@@ -2,6 +2,13 @@
 
 
 
+# Video Talk Through 
+
+Please note: 
+
+This was a submission requirement and therefore not all information may be applicable.
+
+[![Pattern Matching Job Search Chatbot in Python with Spacy](http://img.youtube.com/vi/iSbt_aAXxJE/0.jpg)](http://www.youtube.com/watch?v=iSbt_aAXxJE "Pattern Matching Job Search Chatbot in Python with Spacy")
 
 
 ### The Task:
@@ -36,13 +43,6 @@ Many of these have issues in the data such as character artifacts from text enco
 Job description field is the variable of interest, however, giving the various ways in which people write job descriptions there are many issues in this column. 
 Luckily, where the job description lacks the information, the structured fields can work to combine the information and make it usable. 
 
-# Video Talk Through 
-
-Please note: 
-
-This was a submission requirement and therefore not all information may be applicable.
-
-[![Pattern Matching Job Search Chatbot in Python with Spacy](http://img.youtube.com/vi/iSbt_aAXxJE/0.jpg)](http://www.youtube.com/watch?v=iSbt_aAXxJE "Pattern Matching Job Search Chatbot in Python with Spacy")
 
 # Data Processing
 
